@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Fraunces', serif;
+  text-align: center;
+  /*font-size: 1.7em;*/
+  background-color: #f9df60;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  /*flex-basis: 106em;*/
+  width: 90%;
+  background-color: white;
+  border: 10px solid #f9df60;
+  box-shadow: 6px 6px 10px hsla(300,15%,25%,0.3) inset;
+}
+
+h3{
+  font-family: 'Sofia', cursive;
+  font-size: 1.8em;
+  margin-bottom: 0.625em;
+  text-shadow: 2px 2px 5px #5d3404;
+}
+
+/*Header Bereich*/
+
+#header h1{
+  font-family: 'Sofia', cursive;
+  font-size: 3.438em;
+  text-align: center;
+  margin-bottom: 0.313em;
+  text-shadow: 2px 2px 5px #5d3404;
+}
+
+#header h2{
+  font-family: 'Cookie', cursive;
+  font-size: 2.188em;
+  padding-left: 1.25em;
+  margin-top: 0.313em;
+  margin-bottom: 1.8em;
+}
+
+#header a{
+  text-decoration: none;
+  font-family: 'Fraunces', serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0.313em;
+  margin: 2.813em;
+}
+
+#header a:hover{
+  background-image: url("../images/biene.jpg");
+  padding: 0.313em;
+  box-shadow: 6px 6px 10px hsla(300,15%,25%,0.3) inset;
+}
+
+#wrapper a:focus{
+  outline: 5px solid #f9df60;
+}
+
+#image{
+  background-image: url("../images/biene.jpg");
+}
+
+/*Main Bereich*/
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2.188em;
+  margin-top: 0.938em;
+}
+
+#col1, #col2, #col3{
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-basis: 20em;
+  flex-direction: column;
+}
+
+section img{
+  width: 80%;
+}
+
+main a{
+  text-decoration: none;
+  font-family: 'Fraunces', serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.313em;
+  margin: 2.813em;
+  background-image: url("../images/biene.jpg");
+}
+
+main a:hover{
+  padding: 0.313em;
+  box-shadow: 6px 6px 10px hsla(300,15%,25%,0.3) inset;
+}
+
+caption{
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 0.125em;
+}
+
+.table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  border-collapse: collapse;
+}
+
+/*Schwarze Linie */
+hr{
+  background-color: black;
+  width: 90%;
+  height: 0.125em;
+  border: 0;    /*gibt 3D Effekt weg*/
+
+}
+
+/*Content-Bereich*/
+main #content #contact{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.listing{
+  list-style-type: square;
+  width: 37%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mail{
+  text-align: center;
+  background-image: url("../images/biene.jpg");
+  padding: 0.313em;
+}
+
+.Cookie{
+  font-family: 'Cookie', cursive;
+  font-size: 1.875em;
+}
+
+img{
+  border: 3px solid #5d3404;
+}
+
+/*Footer Bereich*/
+footer{
+  background-color: #8b5e34;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer #impressum{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+footer #footermenu a{
+  text-decoration: none;
+  font-family: 'Fraunces', serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 0.313em;
+  margin: 2.813em;
+}
+
+/*Verlinkte Seiten*/
+.listing2{
+  list-style-type: square;
+  width: 30%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links a{
+  text-decoration: none;
+  font-family: 'Fraunces', serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.313em;
+  margin: 2.813em;
+  background-image: url("../images/biene.jpg");
+}
+
+.links a:hover{
+  padding: 0.313em;
+  box-shadow: 6px 6px 10px hsla(300,15%,25%,0.3) inset;
+}
+
+
+#gallery .row1 .row2 .row3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.625em;
+}
+

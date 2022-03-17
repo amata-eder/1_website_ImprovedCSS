@@ -1,0 +1,22 @@
+Layout mithilfe von Flexbox angepasst. 
+wrapper, header, nav, main und footer wurden für bessere Struktur eingesetzt.
+Größenangaben in px wurden durch em Einheiten ersetzt.
+Flexibilität angepasst und überprüft. 
+
+Anpassung der Barrierefreiheit auf allen Seiten:
+Strukturelemente verwendet (Überschriften etc.)
+Farbkontraste auf Erkennbarkeit überprüft.
+Alt-Texte bei Bilder überarbeitet, Bilder sind jetzt genauer beschrieben.
+Links sind mithilfe von Tabulatortaste und Accesskey erreichbar. Fokus-Ansicht der Links zeigt wo man sich aktuell befindet.
+
+Verbesserungen vom letzten Mal: 
+Es gibt nur mehr einen images Ordner.
+id Selektoren sind jetzt stark vertreten :)
+Überschrift von table wurde mit <caption> gelöst statt <h4>
+Links wurden nach a selektiert und Design wurde geändert zur besseren Erkennung.
+
+Notes: 
+Nur Hauptseite passt sich nicht an Browserfenster an... was hätte ich ändern müssen? 
+Website sollte grundsätzlich so aussehen, wie dann wenn der Browserzoom auf 50% gestellt ist. Mit 100% passts nicht mehr... 
+mit Pixel hat es einwandfrei funktioniert... wo liegt mein Fehler? :/ 
+Punkteabzug nehm ich hin...
